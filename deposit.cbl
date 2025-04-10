@@ -53,3 +53,5 @@
                SUBTRACT WS-AMOUNT FROM WS-BALANCE
                DISPLAY "Withdrawal successful. Updated Balance: $" WS-BALANCE
            END-IF.
+      *This is a program that allows users to deposit and withdraw money
+      * from their account.
