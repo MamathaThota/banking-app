@@ -44,6 +44,8 @@
            ADD WS-AMOUNT TO WS-BALANCE
            DISPLAY "Deposit successful. Updated Balance: $" WS-BALANCE.
 
+      *This is withdrawal para.
+
        WITHDRAW.
            DISPLAY "Enter the amount to withdraw: "
            ACCEPT WS-AMOUNT
@@ -55,4 +57,4 @@
            END-IF.
       *This is a program that allows users to deposit and withdraw money
       * from their account.
-      *Deposit withdrawal sustem
+      *Deposit withdrawal system 
